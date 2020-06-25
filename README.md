@@ -14,8 +14,7 @@
 3. [Usage](#Usage)
 4. [License](#License)
 5. [Contributing](#Contributing)
-6. [Tests](#Tests)
-7. [Questions](#Questions)
+6. [Questions](#Questions)
 
 ## Description
 
@@ -29,6 +28,9 @@ Clone the repository to your local drive, and run npm install. Then npm start, a
 
 Used to demonstrate live search functionality of the given UFC employee JSON. For future development it could be built to implement a user API in order to have a wider range of data/users, and in order to craft different live search directories.
 
+## License
+
+MIT
 
 ## Contributing
 
