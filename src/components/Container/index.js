@@ -13,10 +13,10 @@ export default function Container() {
   }, []);
 
   const sortHandler = () => {
-    var filteredData = fighterData.sort((a, b) => {
-      return b.firstName.localeCompare(a.firstName);
+    fighterData.sort((a, b) => {
+      return a.firstName.localeCompare(b.firstName);
     });
-    setFighterData(filteredData);
+    setFighterData([...fighters]);
   };
 
   return (
