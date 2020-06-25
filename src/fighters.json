@@ -1,49 +1,49 @@
 [
   {
     "id": 1,
-    "image": "./public/assets/khabib.png",
-    "first_name": "Khabib",
-    "last_name": "Nurmagomedov",
+    "image": "/assets/images/khabib.png",
+    "firstName": "Khabib",
+    "lastName": "Nurmagomedov",
     "status": "Active"
   },
   {
     "id": 2,
-    "image": "./public/assets/conor.png",
-    "first_name": "Conor",
-    "last_name": "McGregor",
+    "image": "/assets/images/conor.png",
+    "firstName": "Conor",
+    "lastName": "McGregor",
     "status": "Active"
   },
   {
     "id": 3,
-    "image": "./public/assets/rashad.png",
-    "first_name": "Rashad",
-    "last_name": "Evans",
+    "image": "/assets/images/rashad.png",
+    "firstName": "Rashad",
+    "lastName": "Evans",
     "status": "Retired"
   },
   {
     "id": 4,
-    "image": "./public/assets/cody.png",
+    "image": "/assets/images/cody.png",
     "firstName": "Cody",
     "lastName": "Garbrandt",
     "status": "Active"
   },
   {
     "id": 5,
-    "image": "./public/assets/forrest.png",
+    "image": "/assets/images/forrest.png",
     "firstName": "Forrest",
     "lastName": "Griffin",
     "status": "Retired"
   },
   {
     "id": 6,
-    "image": "./public/assets/mark.png",
+    "image": "/assets/images/mark.png",
     "firstName": "Mark",
     "lastName": "Coleman",
     "status": "Retired"
   },
   {
     "id": 7,
-    "image": "./public/assets/valentina.png",
+    "image": "/assets/images/valentina.png",
     "firstName": "Valentina",
     "lastName": "Shevchenko",
     "status": "Active"

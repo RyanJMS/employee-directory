@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Employee Directory",
+  "name": "UFC Fighter Directory",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,9 +8,39 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "cody.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "520x325"
+    },
+    {
+      "src": "conor.png",
+      "type": "image/png",
+      "sizes": "520x325"
+    },
+    {
+      "src": "forrest.png",
+      "type": "image/png",
+      "sizes": "520x325"
+    },
+    {
+      "src": "khabib.png",
+      "type": "image/png",
+      "sizes": "520x325"
+    },
+    {
+      "src": "mark.png",
+      "type": "image/png",
+      "sizes": "520x325"
+    },
+    {
+      "src": "rashad.png",
+      "type": "image/png",
+      "sizes": "520x325"
+    },
+    {
+      "src": "valentina.png",
+      "type": "image/png",
+      "sizes": "520x325"
     },
     {
       "src": "logo512.png",
