@@ -1,9 +1,11 @@
-<img src="https://avatars0.githubusercontent.com/u/59546790?v=4">
-  # UFC Employee Directory
+# UFC Employee Directory
   Repo by RyanJMS
   
   ![GitHub repo size](https://img.shields.io/github/repo-size/RyanJMS/employee-directory)
-
+  Live Site via Github Pages -> 
+  
+  
+# Demonstration
 
 # Table of Contents
 
@@ -27,12 +29,9 @@ Clone the repository to your local drive, and run npm install. Then npm start, a
 
 Used to demonstrate live search functionality of the given UFC employee JSON. For future development it could be built to implement a user API in order to have a wider range of data/users, and in order to craft different live search directories.
 
-## License
 
 ## Contributing
 
 RyanJMS
 
-## Tests
-
-## Questions
+<img src="https://avatars0.githubusercontent.com/u/59546790?v=4">
