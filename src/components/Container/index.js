@@ -5,9 +5,10 @@ import Table from "../Table";
 import fighters from "../../fighters.json";
 
 export default function Container() {
-  let data;
-  const [search, setSearch] = useState("");
+  //let data;
+
   const [fighterData, setFighterData] = useState([]);
+
   useEffect(() => {
     setFighterData(fighters);
   }, []);
@@ -21,7 +22,7 @@ export default function Container() {
 
   return (
     <div>
-      <Search />
+      <Search fighters={fighterData} />
       <Table fighters={fighterData} sortClickHandler={sortHandler} />
     </div>
   );
