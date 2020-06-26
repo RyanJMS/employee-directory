@@ -5,25 +5,50 @@ import Table from "../Table";
 import fighters from "../../fighters.json";
 
 export default function Container() {
-  //let data;
-
   const [fighterData, setFighterData] = useState([]);
+  const [search, setSearch] = useState("");
+  const [results, setResult] = useState([]);
 
   useEffect(() => {
     setFighterData(fighters);
   }, []);
 
-  const sortHandler = () => {
+  const sortHandlerAsc = () => {
     fighterData.sort((a, b) => {
       return a.firstName.localeCompare(b.firstName);
     });
     setFighterData([...fighters]);
   };
 
+  const sortHandlerDsc = () => {
+    fighterData.sort((a, b) => {
+      return b.firstName.localeCompare(a.firstName);
+    });
+    setFighterData([...fighters]);
+  };
+
+  const updateSearch = (event) => {
+    const data = event.target.value;
+    console.log(data);
+    setSearch(data);
+  };
+
+  useEffect(() => {
+    setResult(
+      fighters.filter((fighter) => {
+        return fighter.firstName.toLowerCase().includes(search.toLowerCase());
+      })
+    );
+  }, [search, fighters]);
+
   return (
     <div>
-      <Search fighters={fighterData} />
-      <Table fighters={fighterData} sortClickHandler={sortHandler} />
+      <Search search={fighters} updateSearch={updateSearch} />
+      <Table
+        fighters={fighters}
+        sortHandlerAsc={sortHandlerAsc}
+        sortHandlerDsc={sortHandlerDsc}
+      />
     </div>
   );
 }

@@ -22,12 +22,24 @@ export default function Table(props) {
           <tr>
             <th>Fighters</th>
 
-            <th
-              onClick={() => {
-                props.sortClickHandler();
-              }}
-            >
+            <th>
               First Name
+              <button
+                onClick={() => {
+                  props.sortHandlerAsc();
+                }}
+                href=""
+              >
+                ASC
+              </button>
+              <button
+                onClick={() => {
+                  props.sortHandlerAsc();
+                }}
+                href=""
+              >
+                DSC
+              </button>
             </th>
 
             <th>Last Name</th>
