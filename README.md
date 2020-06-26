@@ -2,7 +2,7 @@
   Repo by RyanJMS
   
   ![GitHub repo size](https://img.shields.io/github/repo-size/RyanJMS/employee-directory)
-  Live Site via Github Pages -> 
+  Live Site via Github Pages -> https://ryanjms.github.io/employee-directory/
   
   
 # Demonstration
