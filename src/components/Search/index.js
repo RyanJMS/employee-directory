@@ -8,8 +8,8 @@ function Search(props) {
       <input
         type="text"
         placeholder="Search"
-        onChange={props.updateSearch}
-        value={props.resultData}
+        onChange={(event) => props.updateSearch(event)}
+        value={props.fighters}
       ></input>
     </div>
   );

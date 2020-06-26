@@ -14,14 +14,14 @@ export default function Container() {
   }, []);
 
   const sortHandlerAsc = () => {
-    fighterData.sort((a, b) => {
+    fighters.sort((a, b) => {
       return a.firstName.localeCompare(b.firstName);
     });
     setFighterData([...fighters]);
   };
 
   const sortHandlerDsc = () => {
-    fighterData.sort((a, b) => {
+    fighters.sort((a, b) => {
       return b.firstName.localeCompare(a.firstName);
     });
     setFighterData([...fighters]);
@@ -43,12 +43,23 @@ export default function Container() {
 
   return (
     <div>
+      <button
+        onClick={() => {
+          sortHandlerAsc();
+        }}
+      >
+        ASC
+      </button>
+      <button
+        onClick={() => {
+          sortHandlerDsc();
+        }}
+      >
+        DSC
+      </button>
       <Search search={fighters} updateSearch={updateSearch} />
-      <Table
-        fighters={fighters}
-        sortHandlerAsc={sortHandlerAsc}
-        sortHandlerDsc={sortHandlerDsc}
-      />
+      {/*sorting Buttons here,handlers should change fighterdatastate */}
+      <Table fighters={fighters} />
     </div>
   );
 }
