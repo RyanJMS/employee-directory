@@ -28,7 +28,7 @@ export default function Table(props) {
             <th>Status</th>
           </tr>
         </thead>
-        <tbody>{props.fighters.map(renderFighter)}</tbody>
+        <tbody>{renderFighter(props)}</tbody>
       </ReactBootStrap.Table>
     </div>
   );

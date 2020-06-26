@@ -35,11 +35,11 @@ export default function Container() {
 
   useEffect(() => {
     setResult(
-      fighters.filter((fighter) => {
+      fighterData.filter((fighter) => {
         return fighter.firstName.toLowerCase().includes(search.toLowerCase());
       })
     );
-  }, [search, fighters]);
+  }, [search, fighterData]);
 
   return (
     <div>
@@ -59,7 +59,10 @@ export default function Container() {
       </button>
       <Search search={fighters} updateSearch={updateSearch} />
       {/*sorting Buttons here,handlers should change fighterdatastate */}
-      <Table fighters={fighters} />
+
+      {results.map((fighter, index) => (
+        <Table key={index} {...fighter} fighters={fighters} />
+      ))}
     </div>
   );
 }
