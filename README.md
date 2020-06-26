@@ -1,9 +1,11 @@
-<img src="https://avatars0.githubusercontent.com/u/59546790?v=4">
-  # UFC Employee Directory
+# UFC Employee Directory
   Repo by RyanJMS
   
   ![GitHub repo size](https://img.shields.io/github/repo-size/RyanJMS/employee-directory)
-
+  Live Site via Github Pages -> 
+  
+  
+# Demonstration
 
 # Table of Contents
 
@@ -12,8 +14,7 @@
 3. [Usage](#Usage)
 4. [License](#License)
 5. [Contributing](#Contributing)
-6. [Tests](#Tests)
-7. [Questions](#Questions)
+6. [Questions](#Questions)
 
 ## Description
 
@@ -29,10 +30,10 @@ Used to demonstrate live search functionality of the given UFC employee JSON. Fo
 
 ## License
 
+MIT
+
 ## Contributing
 
 RyanJMS
 
-## Tests
-
-## Questions
+<img src="https://avatars0.githubusercontent.com/u/59546790?v=4">
