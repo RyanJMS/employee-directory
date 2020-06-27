@@ -7,7 +7,7 @@
   
 # Demonstration
 
-![](/assets/images/demo.gif)
+![](public/assets/images/demo.gif)
 
 # Table of Contents
 
