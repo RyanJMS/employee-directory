@@ -1,7 +1,9 @@
 import React from "react";
 import * as ReactBootStrap from "react-bootstrap";
 
+//Takes props from Container
 export default function Table(props) {
+  //renderFighter builds the structure of the table elements
   const renderFighter = (fighter, index) => {
     return (
       <tr key={index}>
