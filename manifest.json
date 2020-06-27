@@ -1,0 +1,55 @@
+{
+  "short_name": "Employee Directory",
+  "name": "UFC Fighter Directory",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "cody.png",
+      "type": "image/png",
+      "sizes": "520x325"
+    },
+    {
+      "src": "conor.png",
+      "type": "image/png",
+      "sizes": "520x325"
+    },
+    {
+      "src": "forrest.png",
+      "type": "image/png",
+      "sizes": "520x325"
+    },
+    {
+      "src": "khabib.png",
+      "type": "image/png",
+      "sizes": "520x325"
+    },
+    {
+      "src": "mark.png",
+      "type": "image/png",
+      "sizes": "520x325"
+    },
+    {
+      "src": "rashad.png",
+      "type": "image/png",
+      "sizes": "520x325"
+    },
+    {
+      "src": "valentina.png",
+      "type": "image/png",
+      "sizes": "520x325"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
