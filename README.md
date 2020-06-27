@@ -7,6 +7,8 @@
   
 # Demonstration
 
+![](/assets/images/demo.gif)
+
 # Table of Contents
 
 1. [Description](#Description)
