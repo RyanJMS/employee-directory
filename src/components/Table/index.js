@@ -22,7 +22,7 @@ export default function Table(props) {
       <ReactBootStrap.Table striped bordered hover>
         <thead>
           <tr>
-            <th>Fighters</th>
+            <th>Fighter</th>
 
             <th>First Name</th>
 

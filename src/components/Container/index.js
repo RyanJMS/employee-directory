@@ -66,6 +66,7 @@ export default function Container() {
       </button>
       <Search search={fighters} updateSearch={updateSearch} />
       {/* Maps filtered results to new array */}
+
       {results.map((fighter, index) => (
         <Table key={index} {...fighter} fighters={fighters} />
       ))}
